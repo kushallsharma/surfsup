@@ -55,13 +55,19 @@ Two queries which we can write for further analysis can be:
 
 1.	We can get precipitation information for the June month
 
+
 results = session.query(Measurement.prcp). filter(func.strftime("%m", Measurement.date) == "06")
+
 df = pd.DataFrame(results, columns=["June Precipitation"])
+
 df.describe()
 
 2.	We can get precipitation information for the December month
 
+
 results = session.query(Measurement.prcp). filter(func.strftime("%m", Measurement.date) == "12")
+
 df = pd.DataFrame(results, columns=["December Precipitation"])
+
 df.describe()
 
