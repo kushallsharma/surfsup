@@ -9,6 +9,7 @@ The purpose of this analysis is to analyse weather data of Oahu to assist W. Avy
 
   
 <p align="center">
+  
 ![](Resources/June.png)
 
 Fig # 9.1 June month temperature statistics
